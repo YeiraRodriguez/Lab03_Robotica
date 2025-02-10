@@ -27,7 +27,16 @@ Resumen de los pasos principales para instalar ROS2 usando RoboStack con Conda/M
 
 <b>  Instalación de ROS2: </b> Instalar la versión deseada de ROS2 (por ejemplo, Humble) y reactivar el entorno para inicializar ROS
 
-<b>  Instalación herramientas de desarrollo: </b> Instalar las herramientas eseciales. En Windos instalr soporte para Visual Studio.
+<b>  Instalación herramientas de desarrollo: </b> Instalar las herramientas eseciales. Si se desea hacer código en Python o c++ y se tiene Windows, se debe que descargar VisualStudio Community 2022. Una vez en el instalador irse a la opción de Herramientas de desarrollo de C++ y solos dejar las opciones de 
+
+* WINDOWS SDK
+* Command Tools
+
+Como se muestra a continuación
+
+<p align="center">
+  <img src="Images/InstalacionWindowsComunity.jpeg" height="400">
+</p>
 
 <b> *Prueba de instalación: </b> Se puede ejecutar RViz en ROS2 para comprobar la instalación
 
