@@ -50,6 +50,6 @@ Windows
 
 ## Dificultades de instalación o de arranques principales
 
-Al crear el entorno para ROS2 con Mamba, no se tenía Conda instalado dentro del entorno. Esto se debe a que, por defecto, Conda y Mamba solo están disponibles en el entorno base y no se heredan en los entornos creados.
+Al crear el entorno para ROS2 con Mamba, no se tenía Conda instalado dentro del entorno. Esto se debe a que, por defecto, Conda y Mamba solo están disponibles en el entorno base y no se heredan en los entornos creados. En consecuencia, como el ambiente tenía mamba se debio fue instalar conda
 
 
